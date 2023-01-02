@@ -68,7 +68,7 @@ bot.command("search", (ctx) => {
 bot.on("message", (ctx) => {
     ctx.reply("🤖 Hey...I am just a bot and cannot understand anything besides the commands " + 
     "the idiot who made me provided." + 
-    "\nThus, please make use of the proper commands or fuck off."
+    "\n\nThus, please make use of the stipulated commands only."
     );
 })
 
