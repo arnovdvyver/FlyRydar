@@ -8,7 +8,6 @@ export async function getFlightInfo(flightNumber, apiKey, context) {
     );
 
     const data = await response.json();
-    //console.log(data);
     return data;
 };
 
@@ -18,8 +17,5 @@ export async function getLocation(lat, lon, apiKey) {
     );
     
     const data = await response.json();
-    //console.log(data.features[0].properties);
     return data.features[0].properties;
 };
-
-//getFlightInfo("FA299", process.env.AIR_LAB_KEY);

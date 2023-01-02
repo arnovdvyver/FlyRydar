@@ -64,7 +64,7 @@ bot.command("search", (ctx) => {
         })
 });
 
-//wrong commands used
+//any other unspecified commands used or messages used
 bot.on("message", (ctx) => {
     ctx.reply("🤖 Hey...I am just a bot and cannot understand anything besides the commands " + 
     "the idiot who made me provided." + 
